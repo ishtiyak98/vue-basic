@@ -1,9 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-    <div :key="task.id" v-for="task in tasks">
+    <div class="task-list" :key="task.id" v-for="task in tasks">
         <SingleTask @delete-task="$emit('delete-task', task.id)" :task="task"></SingleTask>
-    </div>
+    </div>0
 </template>
 
 <script>
