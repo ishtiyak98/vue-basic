@@ -17,7 +17,11 @@ export default {
     onclick() {
       console.log("clicked");
     }
+  },
+  beforeMount() {
+    console.log("beforeMount");
   }
+
 }
 </script>
 
