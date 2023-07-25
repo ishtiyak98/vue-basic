@@ -1,7 +1,7 @@
 <template>
   <div>
     <TopHeader></TopHeader>
-    <Tasks @delete-task="deleteTask" :tasks="tasks"></Tasks>
+    <!-- <Tasks @delete-task="deleteTask" :tasks="tasks"></Tasks> -->
     <RouterView />
   </div>
 </template>
